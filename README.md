@@ -1,8 +1,8 @@
-linked-vocabulary-api
+Data Categories for Marine Planning - Linked Vocabulary API
 =====================
 [![Build Status](https://travis-ci.org/tetherless-world/linked-vocabulary-api.svg?branch=master)](https://travis-ci.org/tetherless-world/linked-vocabulary-api)
 
-Linked Data API Specification for publishing SKOS vocabulary linked data on the web
+Linked Data API Specification for publishing Data Categories for Marine Planning SKOS vocabulary linked data on the web
 
 ## The API
 
