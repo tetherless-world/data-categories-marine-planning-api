@@ -34,21 +34,21 @@ dcmp-term:assessments
         rdf:type         owl:NamedIndividual ;
         rdf:type         skos:Concept ;
         dct:identifier   "assessments"^^xsd:string ;
-        skos:prefLabel   "Assessments"^^xsd:string ;
+        skos:prefLabel   "Assessments"@en ;
         skos:definition  "Assessments are derived data that provide information about the values, impacts, drivers, connections, or functions of a feature in its present distribution." .
 
 dcmp-term:biodiversity
         rdf:type         owl:NamedIndividual ;
         rdf:type         skos:Concept ;
         dct:identifier   "biodiversity"^^xsd:string ;
-        skos:prefLabel   "Biodiversity"^^xsd:string ;
+        skos:prefLabel   "Biodiversity"@en ;
         skos:definition  "Biodiversity refers to a measure of the variety of organisms within a level of biological organization at any scale in a defined place. Types of biodiversity include genetic diversity; species diversity; guild, feeding group, or functional group diversity; habitat or biotope diversity; and any other measure of biological variety at a location. Biodiversity can be evaluated at levels of biological organization including taxonomic groups (for example, fishes), communities (for example, megafauna), habitats (for example, soft substrate, coral reef), or ecological systems (for example, number of habitats or biotopes in a managed embayment) and at spatial scales ranging from submeter to global. Biodiversity is widely viewed as critical to ecological functions, services, and economic benefits; changes in biodiversity have been closely linked to changes in the ways ecosystems function. Biodiversity is usually considered as an inherent ecosystem service. For purposes of marine planning, biodiversity measures that can be compared across the planning area are most valuable in decision-making." ;
         skos:inScheme    <https://w3id.org/national-ocean-council/api/vocab/dcmp> .
 
 dcmp-term:birds  rdf:type  owl:NamedIndividual ;
         rdf:type         skos:Concept ;
         dct:identifier   "birds"^^xsd:string ;
-        skos:prefLabel   "Birds"^^xsd:string ;
+        skos:prefLabel   "Birds"@en ;
         skos:definition  "Avian fauna, including flying and nonflying forms." ;
         skos:inScheme    <https://w3id.org/national-ocean-council/api/vocab/dcmp> .
 
@@ -56,27 +56,27 @@ dcmp-term:distributions
         rdf:type         owl:NamedIndividual ;
         rdf:type         skos:Concept ;
         dct:identifier   "distributions"^^xsd:string ;
-        skos:prefLabel   "Distributions"^^xsd:string ;
+        skos:prefLabel   "Distributions"@en ;
         skos:definition  "Distributions describe locations or patterns of a feature of interest across space and (or) time. These data can include point data, lines, polygons, and temporal data at any scale relevant to CMSP and can be produced by observation, interpolation, or modeling. Distributions can also include maps or statistics of climatology, the environmental values that are expected to be observed at the present time." .
 
 dcmp-term:fishes  rdf:type  owl:NamedIndividual ;
         rdf:type         skos:Concept ;
         dct:identifier   "fishes"^^xsd:string ;
-        skos:prefLabel   "Fishes"^^xsd:string ;
+        skos:prefLabel   "Fishes"@en ;
         skos:definition  "Bony and cartilaginous fishes, including primitive fish-like chordates." ;
         skos:inScheme    <https://w3id.org/national-ocean-council/api/vocab/dcmp> .
 
 dcmp-term:flora  rdf:type  owl:NamedIndividual ;
         rdf:type         skos:Concept ;
         dct:identifier   "flora"^^xsd:string ;
-        skos:prefLabel   "Flora"^^xsd:string ;
+        skos:prefLabel   "Flora"@en ;
         skos:definition  "Vascular plants, macroalgae, phytoplankton, or microbial communities." ;
         skos:inScheme    <https://w3id.org/national-ocean-council/api/vocab/dcmp> .
 
 dcmp-term:governance  rdf:type  owl:NamedIndividual ;
         rdf:type         skos:Concept ;
         dct:identifier   "governance"^^xsd:string ;
-        skos:prefLabel   "Governance"^^xsd:string ;
+        skos:prefLabel   "Governance"@en ;
         skos:definition  "Governance is a top-level category of data that represent the boundaries of geographic areas that are defined for governmental, administrative, or management purposes. Governance data for marine planning are those that identify governance entities that have effects on environmental processes or human activities that impact the coast, Great Lakes, or ocean." ;
         skos:inScheme    <https://w3id.org/national-ocean-council/api/vocab/dcmp> ;
         skos:narrower    dcmp-term:commercial-leases ;
@@ -89,14 +89,14 @@ dcmp-term:governance  rdf:type  owl:NamedIndividual ;
 dcmp-term:habitat  rdf:type  owl:NamedIndividual ;
         rdf:type         skos:Concept ;
         dct:identifier   "habitat"^^xsd:string ;
-        skos:prefLabel   "Habitat"^^xsd:string ;
+        skos:prefLabel   "Habitat"@en ;
         skos:definition  "Habitat includes data that describe repeatable combinations of biota and associated chemical, physical, or geological features in a distinct place, which, as in the CMECS Biotic Component, generally are named for the dominant taxa living there. “Habitat” also includes biotopes in accordance with CMECS. Examples include seagrass beds, deep-water corals, benthos, nekton, plankton, mussel beds." ;
         skos:inScheme    <https://w3id.org/national-ocean-council/api/vocab/dcmp> .
 
 dcmp-term:hunting  rdf:type  owl:NamedIndividual ;
         rdf:type         skos:Concept ;
         dct:identifier   "hunting"^^xsd:string ;
-        skos:prefLabel   "Hunting"^^xsd:string ;
+        skos:prefLabel   "Hunting"@en ;
         skos:definition  "Hunting includes shore- and boat-based hunting of vertebrates, birds, mammals, and reptiles, including legally recognized hunting by tribal and indigenous communities; it excludes fishing and activities that can be classified in the “Cultural Use” category." ;
         skos:inScheme    <https://w3id.org/national-ocean-council/api/vocab/dcmp> .
 
@@ -104,7 +104,7 @@ dcmp-term:infrastructure
         rdf:type         owl:NamedIndividual ;
         rdf:type         skos:Concept ;
         dct:identifier   "infrastructure"^^xsd:string ;
-        skos:prefLabel   "Infrastructure"^^xsd:string ;
+        skos:prefLabel   "Infrastructure"@en ;
         skos:definition  "Infrastructure is a top-level category of data that represent the locations of permanent or temporary installations intended to support basic human activities or needs, including communication, transportation, shoreline protection, housing, recreation, and utilities. Data required for marine planning are limited to infrastructure that has effects on environmental processes or human activities that impact the coast, Great Lakes, or ocean." ;
         skos:inScheme    <https://w3id.org/national-ocean-council/api/vocab/dcmp> ;
         skos:narrower    dcmp-term:ports ;
@@ -116,28 +116,28 @@ dcmp-term:invertebrates
         rdf:type         owl:NamedIndividual ;
         rdf:type         skos:Concept ;
         dct:identifier   "invertebrates"^^xsd:string ;
-        skos:prefLabel   "Invertebrates"^^xsd:string ;
+        skos:prefLabel   "Invertebrates"@en ;
         skos:definition  "Invertebrate fauna, including primitive non-fishlike chordates and taxa\nregionally identified as shellfish." ;
         skos:inScheme    <https://w3id.org/national-ocean-council/api/vocab/dcmp> .
 
 dcmp-term:mammals  rdf:type  owl:NamedIndividual ;
         rdf:type         skos:Concept ;
         dct:identifier   "mammals"^^xsd:string ;
-        skos:prefLabel   "Mammals"^^xsd:string ;
+        skos:prefLabel   "Mammals"@en ;
         skos:definition  "Warm-blooded lactating vertebrates." ;
         skos:inScheme    <https://w3id.org/national-ocean-council/api/vocab/dcmp> .
 
 dcmp-term:paddling  rdf:type  owl:NamedIndividual ;
         rdf:type         skos:Concept ;
         dct:identifier   "paddling"^^xsd:string ;
-        skos:prefLabel   "Paddling"^^xsd:string ;
+        skos:prefLabel   "Paddling"@en ;
         skos:definition  "Paddling includes kayaking, canoeing, rowing, outrigger paddling, and stand-up paddling; it excludes activities that can be classified in the “Motorized Boating” and “Surface Board Sports” categories." ;
         skos:inScheme    <https://w3id.org/national-ocean-council/api/vocab/dcmp> .
 
 dcmp-term:ports  rdf:type  owl:NamedIndividual ;
         rdf:type         skos:Concept ;
         dct:identifier   "ports"^^xsd:string ;
-        skos:prefLabel   "Ports"^^xsd:string ;
+        skos:prefLabel   "Ports"@en ;
         skos:definition  "Ports are locations with facilities for loading, unloading, docking, fueling, and repairing vessels." ;
         skos:inScheme    <https://w3id.org/national-ocean-council/api/vocab/dcmp> .
 
@@ -145,55 +145,55 @@ dcmp-term:predictions
         rdf:type         owl:NamedIndividual ;
         rdf:type         skos:Concept ;
         dct:identifier   "predictions"^^xsd:string ;
-        skos:prefLabel   "Predictions"^^xsd:string ;
+        skos:prefLabel   "Predictions"@en ;
         skos:definition  "Predictions are data expressing projections or models of future distributions, values, or impacts, including forecasts of anticipated changes brought about by natural and human processes, as well as scenario-testing models that compare outcomes of different management actions." .
 
 dcmp-term:reptiles  rdf:type  owl:NamedIndividual ;
         rdf:type         skos:Concept ;
         dct:identifier   "reptiles"^^xsd:string ;
-        skos:prefLabel   "Reptiles"^^xsd:string ;
+        skos:prefLabel   "Reptiles"@en ;
         skos:definition  "Cold-blooded vertebrate fauna, typically with four limbs and scales." ;
         skos:inScheme    <https://w3id.org/national-ocean-council/api/vocab/dcmp> .
 
 dcmp-term:sailing  rdf:type  owl:NamedIndividual ;
         rdf:type         skos:Concept ;
         dct:identifier   "sailing"^^xsd:string ;
-        skos:prefLabel   "Sailing"^^xsd:string ;
+        skos:prefLabel   "Sailing"@en ;
         skos:definition  "Sailing includes transit, mooring, motoring, or anchoring by sailboats, including sailing kayaks and canoes; it excludes activities that can be classified in the “Motorized Boating” and “Paddling” categories." ;
         skos:inScheme    <https://w3id.org/national-ocean-council/api/vocab/dcmp> .
 
 dcmp-term:shipping  rdf:type  owl:NamedIndividual ;
         rdf:type         skos:Concept ;
         dct:identifier   "shipping"^^xsd:string ;
-        skos:prefLabel   "Shipping"^^xsd:string ;
+        skos:prefLabel   "Shipping"@en ;
         skos:definition  "Shipping includes transit, mooring, or anchoring by ships, ferries, and other large commercial vessels; it excludes activities that can be classified in the “Offshore Oil and Gas Production” and “Cruise Ships” categories." ;
         skos:inScheme    <https://w3id.org/national-ocean-council/api/vocab/dcmp> .
 
 dcmp-term:structures  rdf:type  owl:NamedIndividual ;
         rdf:type         skos:Concept ;
         dct:identifier   "structures"^^xsd:string ;
-        skos:prefLabel   "Structures"^^xsd:string ;
+        skos:prefLabel   "Structures"@en ;
         skos:definition  "Structures are temporary, permanent, or abandoned constructed features on the coast, Great Lakes, or ocean, including piers, platforms, energy installations, communication towers, hardened shoreline protection, jetties, housing, shipwrecks, and more, but not including ports, cables, pipelines, power grids, buoys, or navigational aids." ;
         skos:inScheme    <https://w3id.org/national-ocean-council/api/vocab/dcmp> .
 
 dcmp-term:substrate  rdf:type  owl:NamedIndividual ;
         rdf:type         skos:Concept ;
         dct:identifier   "substrate"^^xsd:string ;
-        skos:prefLabel   "Substrate"^^xsd:string ;
+        skos:prefLabel   "Substrate"@en ;
         skos:definition  "Substrate represents the character and composition of the surface and near surface of the sea floor in subtidal or intertidal areas, as defined in the Substrate Component of CMECS or in similar classification systems." ;
         skos:inScheme    <https://w3id.org/national-ocean-council/api/vocab/dcmp> .
 
 dcmp-term:swimming  rdf:type  owl:NamedIndividual ;
         rdf:type         skos:Concept ;
         dct:identifier   "swimming"^^xsd:string ;
-        skos:prefLabel   "Swimming"^^xsd:string ;
+        skos:prefLabel   "Swimming"@en ;
         skos:definition  "Swimming includes short- and long-distance surface swimming at any distance from shore and body surfing; it excludes activities that can be classified in the “Scuba/Snorkeling” and “Surface Board Sports” categories." ;
         skos:inScheme    <https://w3id.org/national-ocean-council/api/vocab/dcmp> .
 
 dcmp-term:tides  rdf:type  owl:NamedIndividual ;
         rdf:type         skos:Concept ;
         dct:identifier   "tides"^^xsd:string ;
-        skos:prefLabel   "Tides"^^xsd:string ;
+        skos:prefLabel   "Tides"@en ;
         skos:definition  "Tides refers to the motions of water in ebb and flood currents, driven by the gravitational attraction of the Sun and moon on the Earth, at times influenced by wind events." ;
         skos:inScheme    <https://w3id.org/national-ocean-council/api/vocab/dcmp> .
 
@@ -201,7 +201,7 @@ dcmp-term:transportation
         rdf:type         owl:NamedIndividual ;
         rdf:type         skos:Concept ;
         dct:identifier   "transportation"^^xsd:string ;
-        skos:prefLabel   "Transportation"^^xsd:string ;
+        skos:prefLabel   "Transportation"@en ;
         skos:definition  "Among the oldest of human uses of the ocean, the movement of people, goods, and armies by ship remains a major component of the Nation’s ocean use footprint. All involve the transit far offshore by large ships over long distances, with periodic passages into shallower waters for loading, offloading, repairs, refueling, and so on." ;
         skos:inScheme    <https://w3id.org/national-ocean-council/api/vocab/dcmp> ;
         skos:narrower    dcmp-term:shipping ;
@@ -211,7 +211,7 @@ dcmp-term:transportation
 dcmp-term:wind  rdf:type  owl:NamedIndividual ;
         rdf:type         skos:Concept ;
         dct:identifier   "wind"^^xsd:string ;
-        skos:prefLabel   "Wind"^^xsd:string ;
+        skos:prefLabel   "Wind"@en ;
         skos:definition  "Wind refers to the natural movement of air in horizontal currents." ;
         skos:inScheme    <https://w3id.org/national-ocean-council/api/vocab/dcmp> .
 
@@ -219,7 +219,7 @@ dcmp-term:bathymetry-and-elevation
         rdf:type         owl:NamedIndividual ;
         rdf:type         skos:Concept ;
         dct:identifier   "bathymetry"^^xsd:string ;
-        skos:prefLabel   "Bathymetry and Elevation"^^xsd:string ;
+        skos:prefLabel   "Bathymetry and Elevation"@en ;
         skos:definition  "Bathymetry and Elevation includes measures of the height of a location above or below a reference surface. Bathymetry is the elevation of the Earth's surface beneath a body of water, especially the ocean, typically determined by measurements of depth from the water surface at mean lower low water." ;
         skos:inScheme    <https://w3id.org/national-ocean-council/api/vocab/dcmp> .
 
@@ -227,7 +227,7 @@ dcmp-term:biological-occurrence
         rdf:type         owl:NamedIndividual ;
         rdf:type         skos:Concept ;
         dct:identifier   "biological-occurrence"^^xsd:string ;
-        skos:prefLabel   "Biological Occurrence"^^xsd:string ;
+        skos:prefLabel   "Biological Occurrence"@en ;
         skos:definition  "Biological Occurrence data identify different taxa together with the times and locations in which these particular organisms live." ;
         skos:inScheme    <https://w3id.org/national-ocean-council/api/vocab/dcmp> ;
         skos:narrower    dcmp-term:birds ;
@@ -242,7 +242,7 @@ dcmp-term:biological-production
         rdf:type         owl:NamedIndividual ;
         rdf:type         skos:Concept ;
         dct:identifier   "biological-production"^^xsd:string ;
-        skos:prefLabel   "Biological Production"^^xsd:string ;
+        skos:prefLabel   "Biological Production"@en ;
         skos:definition  "Biological Production refers to a measure of growth, reproduction, or yield of a biological system at any scale, together with the services provided. This includes primary production (the rate or extent to which new organic matter is created, usually through photosynthesis); secondary production (the rate or extent to which consumers multiply and grow); related concepts such as standing stock, biomass density, available biomass, trophic transfer, and sustainable yield; and services including not only provisioning of food but also the many other services that are enhanced by high biomass of specific organisms." ;
         skos:inScheme    <https://w3id.org/national-ocean-council/api/vocab/dcmp> .
 
@@ -250,7 +250,7 @@ dcmp-term:buoys-and-navigational-aids
         rdf:type         owl:NamedIndividual ;
         rdf:type         skos:Concept ;
         dct:identifier   "buoys-and-navigational-aids"^^xsd:string ;
-        skos:prefLabel   "Buoys and Navigational Aids"^^xsd:string ;
+        skos:prefLabel   "Buoys and Navigational Aids"@en ;
         skos:definition  "These are constructed markers that provide location-specific information." ;
         skos:inScheme    <https://w3id.org/national-ocean-council/api/vocab/dcmp> .
 
@@ -258,7 +258,7 @@ dcmp-term:cables-pipelines-and-power-grids
         rdf:type         owl:NamedIndividual ;
         rdf:type         skos:Concept ;
         dct:identifier   "cables-pipelines-and-power-grids"^^xsd:string ;
-        skos:prefLabel   "Cables, Pipelines, and Power Grids"^^xsd:string ;
+        skos:prefLabel   "Cables, Pipelines, and Power Grids"@en ;
         skos:definition  "These are linear features for communication and transmission of electrical power, data, fluids, or other materials." ;
         skos:inScheme    <https://w3id.org/national-ocean-council/api/vocab/dcmp> .
 
@@ -266,7 +266,7 @@ dcmp-term:coastal-aquaculture
         rdf:type         owl:NamedIndividual ;
         rdf:type         skos:Concept ;
         dct:identifier   "coastal-aquaculture"^^xsd:string ;
-        skos:prefLabel   "Coastal Aquaculture"^^xsd:string ;
+        skos:prefLabel   "Coastal Aquaculture"@en ;
         skos:definition  "Coastal Aquaculture” includes cultivating and harvesting marine organisms in the nearshore environment by using man-made enclosures that can be fixed, floating, or submerged (for example, nets, pens, and cages); it excludes aquaculture wholly pursued on land and activities that can be classified in the “Offshore Aquaculture” category." ;
         skos:inScheme    <https://w3id.org/national-ocean-council/api/vocab/dcmp> .
 
@@ -274,7 +274,7 @@ dcmp-term:commercial-leases
         rdf:type         owl:NamedIndividual ;
         rdf:type         skos:Concept ;
         dct:identifier   "commercial-leases"^^xsd:string ;
-        skos:prefLabel   "Commercial Leases"^^xsd:string ;
+        skos:prefLabel   "Commercial Leases"@en ;
         skos:definition  "Commercial Leases data delineate areas where special-use allocations are established by contracts that define who has permission to carry out particular activities in an area or zone defined by the contract." ;
         skos:inScheme    <https://w3id.org/national-ocean-council/api/vocab/dcmp> .
 
@@ -282,7 +282,7 @@ dcmp-term:cruise-ships
         rdf:type         owl:NamedIndividual ;
         rdf:type         skos:Concept ;
         dct:identifier   "cruise-ships"^^xsd:string ;
-        skos:prefLabel   "Cruise Ships"^^xsd:string ;
+        skos:prefLabel   "Cruise Ships"@en ;
         skos:definition  "Cruise Ships includes transit, mooring, or anchoring for extended overnight recreational travel on commercial ships; it excludes activities that can be classified in the “Motorized Boating” and “Shipping” categories." ;
         skos:inScheme    <https://w3id.org/national-ocean-council/api/vocab/dcmp> .
 
@@ -290,7 +290,7 @@ dcmp-term:cultural-use
         rdf:type         owl:NamedIndividual ;
         rdf:type         skos:Concept ;
         dct:identifier   "cultural-use"^^xsd:string ;
-        skos:prefLabel   "Cultural Use"^^xsd:string ;
+        skos:prefLabel   "Cultural Use"@en ;
         skos:definition  "Cultural Use includes traditional and current use of specific ocean, coastal, and shoreline areas by tribal and indigenous communities, based on the area’s inherent cultural, spiritual, or aesthetic values and significance; it excludes activities that can be classified in other “Ocean Use” categories." ;
         skos:inScheme    <https://w3id.org/national-ocean-council/api/vocab/dcmp> .
 
@@ -298,7 +298,7 @@ dcmp-term:data-content-subjects
         rdf:type           owl:NamedIndividual ;
         rdf:type           skos:Concept ;
         dct:identifier     "data-content-subjects"^^xsd:string ;
-        skos:prefLabel     "Data Content Subjects"^^xsd:string ;
+        skos:prefLabel     "Data Content Subjects"@en ;
         skos:topConceptOf  <https://w3id.org/national-ocean-council/api/vocab/dcmp> ;
         skos:narrower      dcmp-term:governance ;
         skos:narrower      dcmp-term:infrastructure ;
@@ -310,7 +310,7 @@ dcmp-term:data-content-types
         rdf:type           owl:NamedIndividual ;
         rdf:type           skos:Concept ;
         dct:identifier     "data-content-types"^^xsd:string ;
-        skos:prefLabel     "Data Content Types"^^xsd:string ;
+        skos:prefLabel     "Data Content Types"@en ;
         skos:topConceptOf  <https://w3id.org/national-ocean-council/api/vocab/dcmp> ;
         skos:narrower      dcmp-term:assessments ;
         skos:narrower      dcmp-term:distributions ;
@@ -320,7 +320,7 @@ dcmp-term:de-facto-mpas
         rdf:type         owl:NamedIndividual ;
         rdf:type         skos:Concept ;
         dct:identifier   "de-facto-mpas"^^xsd:string ;
-        skos:prefLabel   "De Facto MPAs"^^xsd:string ;
+        skos:prefLabel   "De Facto MPAs"@en ;
         skos:definition  "De Facto MPAs data delineate areas where human access and activities are restricted for reasons other than conservation. Examples include military operating areas, safety zones around offshore energy production facilities, industrial exclusion zones, and shellfish closures for water-quality reasons." ;
         skos:inScheme    <https://w3id.org/national-ocean-council/api/vocab/dcmp> .
 
@@ -328,7 +328,7 @@ dcmp-term:dive-fishing
         rdf:type         owl:NamedIndividual ;
         rdf:type         skos:Concept ;
         dct:identifier   "dive-fishing"^^xsd:string ;
-        skos:prefLabel   "Dive Fishing"^^xsd:string ;
+        skos:prefLabel   "Dive Fishing"@en ;
         skos:definition  "Dive Fishing includes the use of scuba diving, surface supply diving, or snorkeling (free diving) to spear or catch fishes and invertebrates; it excludes activities that can be classified in other “Ocean Use” categories." ;
         skos:inScheme    <https://w3id.org/national-ocean-council/api/vocab/dcmp> .
 
@@ -336,7 +336,7 @@ dcmp-term:ecological-functions-and-services
         rdf:type         owl:NamedIndividual ;
         rdf:type         skos:Concept ;
         dct:identifier   "ecological-functions-and-services"^^xsd:string ;
-        skos:prefLabel   "Ecological Functions and Services"^^xsd:string ;
+        skos:prefLabel   "Ecological Functions and Services"@en ;
         skos:definition  "Ecological Functions and Services includes data describing or measuring an ecological or ecosystem process, property, or benefit to humans that is associated with habitat or biota. While many natural services are related to physical materials and energy production, this category is limited to those services and benefits that derive from ecological interactions of living organisms. Examples of processes or properties include primary productivity, secondary production, nutrient processing, biomass, biodiversity, ecological integrity, and trophic connectivity or export. Examples of services include provisioning of food; carbon storage; nutrient removal; filtration of water; and storm, wave, or flood protection. Functions and services related to biodiversity and production are included here and are further categorized and discussed." ;
         skos:inScheme    <https://w3id.org/national-ocean-council/api/vocab/dcmp> ;
         skos:narrower    dcmp-term:biodiversity ;
@@ -346,7 +346,7 @@ dcmp-term:energy-production
         rdf:type         owl:NamedIndividual ;
         rdf:type         skos:Concept ;
         dct:identifier   "energy-production"^^xsd:string ;
-        skos:prefLabel   "Energy Production"^^xsd:string ;
+        skos:prefLabel   "Energy Production"@en ;
         skos:definition  "In addition to the extraction of fossil fuels for energy, new uses are emerging from sources of renewable energy such as wind, waves, tides, and currents. All are industrial, commercial operations and involve relatively large and extensive fixed, installed infrastructure and associated devices for collecting and transmitting the resulting products to shore (for example, pipelines and cables)." ;
         skos:inScheme    <https://w3id.org/national-ocean-council/api/vocab/dcmp> ;
         skos:narrower    dcmp-term:ocean-current-energy-production ;
@@ -360,7 +360,7 @@ dcmp-term:energy-resources
         rdf:type         owl:NamedIndividual ;
         rdf:type         skos:Concept ;
         dct:identifier   "energy-resources"^^xsd:string ;
-        skos:prefLabel   "Energy Resources"^^xsd:string ;
+        skos:prefLabel   "Energy Resources"@en ;
         skos:definition  "Energy Resources refers to natural features that provide a capacity to do work through combustion, movement, radiation, or heat" ;
         skos:inScheme    <https://w3id.org/national-ocean-council/api/vocab/dcmp> ;
         skos:narrower    dcmp-term:tides ;
@@ -376,7 +376,7 @@ dcmp-term:fishing-from-shore
         rdf:type         owl:NamedIndividual ;
         rdf:type         skos:Concept ;
         dct:identifier   "fishing-from-shore"^^xsd:string ;
-        skos:prefLabel   "Fishing from Shore"^^xsd:string ;
+        skos:prefLabel   "Fishing from Shore"@en ;
         skos:definition  "Fishing from Shore includes the use of rod and reel, crab traps, cast nets, or kites to catch fishes and mobile invertebrates near the shore or from piers and jetties; it excludes activities that can be classified in other “Ocean Use” categories." ;
         skos:inScheme    <https://w3id.org/national-ocean-council/api/vocab/dcmp> .
 
@@ -384,7 +384,7 @@ dcmp-term:fishing-with-benthic-fixed-gear
         rdf:type         owl:NamedIndividual ;
         rdf:type         skos:Concept ;
         dct:identifier   "fishing-with-benthic-fixed-gear"^^xsd:string ;
-        skos:prefLabel   "Fishing with Benthic Fixed Gear"^^xsd:string ;
+        skos:prefLabel   "Fishing with Benthic Fixed Gear"@en ;
         skos:definition  "Fishing with Benthic Fixed Gear includes the use of traps, pots, bottom long-lines, bottom or anchored gillnets, pound nets, weirs, and other types of bottom tending gear used to catch benthic fishes and invertebrates; it excludes activities that can be classified in other “Ocean Use” categories." ;
         skos:inScheme    <https://w3id.org/national-ocean-council/api/vocab/dcmp> .
 
@@ -392,7 +392,7 @@ dcmp-term:fishing-with-benthic-mobile-gear
         rdf:type         owl:NamedIndividual ;
         rdf:type         skos:Concept ;
         dct:identifier   "fishing-with-benthic-mobile-gear"^^xsd:string ;
-        skos:prefLabel   "Fishing with Benthic Mobile Gear"^^xsd:string ;
+        skos:prefLabel   "Fishing with Benthic Mobile Gear"@en ;
         skos:definition  "Fishing with Benthic Mobile Gear includes the use of rod and reel, trolling, trawling, dredging, and other mobile gear to catch benthic fishes and mobile invertebrates; it excludes activities that can be classified in other “Ocean Use” categories." ;
         skos:inScheme    <https://w3id.org/national-ocean-council/api/vocab/dcmp> .
 
@@ -400,7 +400,7 @@ dcmp-term:gathering-from-shore
         rdf:type         owl:NamedIndividual ;
         rdf:type         skos:Concept ;
         dct:identifier   "gathering-from-shore"^^xsd:string ;
-        skos:prefLabel   "Gathering from Shore"^^xsd:string ;
+        skos:prefLabel   "Gathering from Shore"@en ;
         skos:definition  "Gathering from Shore includes consumptive and (or) subsistence harvest in the intertidal zone of living marine plant or animal species for consumption, aquaria, recreation, education, or research; it excludes other forms of intertidal or coastal harvesting, such as activities that can be classified in the “Fishing from Shore,” “Tide Pooling,” “Offshore Seaweed Harvest,” or “Coastal Aquaculture” categories." ;
         skos:inScheme    <https://w3id.org/national-ocean-council/api/vocab/dcmp> .
 
@@ -408,7 +408,7 @@ dcmp-term:geothermal-resources
         rdf:type         owl:NamedIndividual ;
         rdf:type         skos:Concept ;
         dct:identifier   "geothermal-resources"^^xsd:string ;
-        skos:prefLabel   "Geothermal Resources"^^xsd:string ;
+        skos:prefLabel   "Geothermal Resources"@en ;
         skos:definition  "Geothermal Resources includes temperature differences related to the Earth’s internal heat, commonly observed as springs or vents discharging hot water or steam, or through geothermal wells positioned to extract heat." ;
         skos:inScheme    <https://w3id.org/national-ocean-council/api/vocab/dcmp> .
 
@@ -416,7 +416,7 @@ dcmp-term:harvesting-living-resources
         rdf:type         owl:NamedIndividual ;
         rdf:type         skos:Concept ;
         dct:identifier   "harvesting-living-resources"^^xsd:string ;
-        skos:prefLabel   "Harvesting Living Resources"^^xsd:string ;
+        skos:prefLabel   "Harvesting Living Resources"@en ;
         skos:definition  "Many ocean uses revolve around fishing, harvesting, or hunting of animals and plants for either commercial or recreational purposes. In those cases, data can be tagged with the appropriate descriptor (“Commercial” or “Recreational”) to allow more refined searches, such as “Recreational Pelagic Fishing” or “Commercial Fishing with Benthic Mobile Gear.” Many of these uses involve vessels and specialized capture or harvesting gear." ;
         skos:inScheme    <https://w3id.org/national-ocean-council/api/vocab/dcmp> ;
         skos:narrower    dcmp-term:hunting ;
@@ -433,7 +433,7 @@ dcmp-term:invasive-species
         rdf:type         owl:NamedIndividual ;
         rdf:type         skos:Concept ;
         dct:identifier   "invasive-species"^^xsd:string ;
-        skos:prefLabel   "Invasive Species"^^xsd:string ;
+        skos:prefLabel   "Invasive Species"@en ;
         skos:definition  "Non-native or introduced biota that may spread throughout their new habitats and cause harm to native species and their interactions, human health, or economies. This subtype may be used in addition to another “Biological Occurrence” subtype, if appropriate." ;
         skos:inScheme    <https://w3id.org/national-ocean-council/api/vocab/dcmp> .
 
@@ -441,7 +441,7 @@ dcmp-term:jurisdictional-boundaries
         rdf:type         owl:NamedIndividual ;
         rdf:type         skos:Concept ;
         dct:identifier   "jurisdictional-boundaries"^^xsd:string ;
-        skos:prefLabel   "Jurisdictional Boundaries"^^xsd:string ;
+        skos:prefLabel   "Jurisdictional Boundaries"@en ;
         skos:definition  "Jurisdictional Boundaries data delineate domestic, tribal, and international areas established by a law or treaty that determines who has the authority to interpret, apply, and enforce the laws within those areas." ;
         skos:inScheme    <https://w3id.org/national-ocean-council/api/vocab/dcmp> .
 
@@ -449,7 +449,7 @@ dcmp-term:kayak-fishing
         rdf:type         owl:NamedIndividual ;
         rdf:type         skos:Concept ;
         dct:identifier   "kayak-fishing"^^xsd:string ;
-        skos:prefLabel   "Kayak Fishing"^^xsd:string ;
+        skos:prefLabel   "Kayak Fishing"@en ;
         skos:definition  "Kayak Fishing includes hook and line fishing from kayaks or any similar vessels to catch fishes and mobile invertebrates; it excludes activities that can be classified in other “Ocean Use” categories." ;
         skos:inScheme    <https://w3id.org/national-ocean-council/api/vocab/dcmp> .
 
@@ -457,7 +457,7 @@ dcmp-term:living-resources
         rdf:type         owl:NamedIndividual ;
         rdf:type         skos:Concept ;
         dct:identifier   "living-resources"^^xsd:string ;
-        skos:prefLabel   "Living Resources"^^xsd:string ;
+        skos:prefLabel   "Living Resources"@en ;
         skos:definition  "Living Resources is a top-level category that includes aspects of coastal and marine biota that are of particular importance to ecology or to human uses. These can include particular species, groups of biota, associations of biota with physical features, biological function, and biological connectivity." ;
         skos:inScheme    <https://w3id.org/national-ocean-council/api/vocab/dcmp> ;
         skos:narrower    dcmp-term:habitat ;
@@ -468,7 +468,7 @@ dcmp-term:marine-protected-areas
         rdf:type         owl:NamedIndividual ;
         rdf:type         skos:Concept ;
         dct:identifier   "marine-protected-areas"^^xsd:string ;
-        skos:prefLabel   "Marine Protected Areas"^^xsd:string ;
+        skos:prefLabel   "Marine Protected Areas"@en ;
         skos:definition  "Marine Protected Areas (MPAs) data delineate areas where some or all of the natural and cultural resources are given a heightened level of protection through regulation or other effective means in order to achieve conservation or societal goals." ;
         skos:inScheme    <https://w3id.org/national-ocean-council/api/vocab/dcmp> .
 
@@ -476,7 +476,7 @@ dcmp-term:material-resources
         rdf:type         owl:NamedIndividual ;
         rdf:type         skos:Concept ;
         dct:identifier   "material-resources"^^xsd:string ;
-        skos:prefLabel   "Material Resources"^^xsd:string ;
+        skos:prefLabel   "Material Resources"@en ;
         skos:definition  "Material Resources refers to significant quantities of any naturally occurring nonliving substances that humans can potentially use for economic, nutritional, recreational, ecological, aesthetic, and other benefits. This category does not include energy resources, which are discussed previously." ;
         skos:inScheme    <https://w3id.org/national-ocean-council/api/vocab/dcmp> ;
         skos:narrower    dcmp-term:mineral-resources ;
@@ -486,7 +486,7 @@ dcmp-term:military-vessels
         rdf:type         owl:NamedIndividual ;
         rdf:type         skos:Concept ;
         dct:identifier   "military-vessels"^^xsd:string ;
-        skos:prefLabel   "Military Vessels"^^xsd:string ;
+        skos:prefLabel   "Military Vessels"@en ;
         skos:definition  "Military Vessels includes transit of military vessels related to training activities, homeland security, search and rescue, ship and submarine maneuvers, and war games; it excludes wartime military operations." ;
         skos:inScheme    <https://w3id.org/national-ocean-council/api/vocab/dcmp> .
 
@@ -494,7 +494,7 @@ dcmp-term:mineral-resources
         rdf:type         owl:NamedIndividual ;
         rdf:type         skos:Concept ;
         dct:identifier   "mineral-resources"^^xsd:string ;
-        skos:prefLabel   "Mineral Resources"^^xsd:string ;
+        skos:prefLabel   "Mineral Resources"@en ;
         skos:definition  "Mineral Resources includes natural occurrences of any useful inorganic element or compound with particle sizes other than sand, including clay, silt, gravel, and bedrock (that is, substrate with a grain size other than 0.0625–2.0 millimeters; for finer subdivisions, see Federal Geographic Data Committee, 2012 [CMECS])." ;
         skos:inScheme    <https://w3id.org/national-ocean-council/api/vocab/dcmp> .
 
@@ -502,7 +502,7 @@ dcmp-term:mining-and-mineral-extraction
         rdf:type         owl:NamedIndividual ;
         rdf:type         skos:Concept ;
         dct:identifier   "mining-and-mineral-extraction"^^xsd:string ;
-        skos:prefLabel   "Mining and Mineral Extraction"^^xsd:string ;
+        skos:prefLabel   "Mining and Mineral Extraction"@en ;
         skos:definition  "Mining and Mineral Extraction includes sand and gravel extraction, seabed mining for commercial minerals, dredging, and beach nourishment; it excludes energy production activities." ;
         skos:inScheme    <https://w3id.org/national-ocean-council/api/vocab/dcmp> .
 
@@ -510,7 +510,7 @@ dcmp-term:motorized-boating
         rdf:type         owl:NamedIndividual ;
         rdf:type         skos:Concept ;
         dct:identifier   "motorized-boating"^^xsd:string ;
-        skos:prefLabel   "Motorized Boating"^^xsd:string ;
+        skos:prefLabel   "Motorized Boating"@en ;
         skos:definition  "Motorized Boating includes transit, mooring, or anchoring by motorized vessels, including personal watercraft, for commercial or recreational purposes; it excludes activities that can be classified in the “Fishing,” “Wildlife Viewing at Sea,” “Cruise Ships,” “Shipping,” and “Sailing” categories." ;
         skos:inScheme    <https://w3id.org/national-ocean-council/api/vocab/dcmp> .
 
@@ -518,7 +518,7 @@ dcmp-term:natural-gas-resources
         rdf:type         owl:NamedIndividual ;
         rdf:type         skos:Concept ;
         dct:identifier   "natural-gas-resources"^^xsd:string ;
-        skos:prefLabel   "Natural Gas Resources"^^xsd:string ;
+        skos:prefLabel   "Natural Gas Resources"@en ;
         skos:definition  "Natural Gas Resources refers to stocks of naturally formed hydrocarbon gases, which are usually associated with petroleum fields or gas hydrate formations." ;
         skos:inScheme    <https://w3id.org/national-ocean-council/api/vocab/dcmp> .
 
@@ -526,7 +526,7 @@ dcmp-term:nonliving-resources
         rdf:type         owl:NamedIndividual ;
         rdf:type         skos:Concept ;
         dct:identifier   "nonliving-resources"^^xsd:string ;
-        skos:prefLabel   "Nonliving Resources"^^xsd:string ;
+        skos:prefLabel   "Nonliving Resources"@en ;
         skos:definition  "Nonliving Resources data are about chemical, physical, or geological features that are of use or importance to humans or ecologies." ;
         skos:inScheme    <https://w3id.org/national-ocean-council/api/vocab/dcmp> ;
         skos:narrower    dcmp-term:energy-resources ;
@@ -537,7 +537,7 @@ dcmp-term:ocean-currents
         rdf:type         owl:NamedIndividual ;
         rdf:type         skos:Concept ;
         dct:identifier   "ocean-currents"^^xsd:string ;
-        skos:prefLabel   "Ocean Currents"^^xsd:string ;
+        skos:prefLabel   "Ocean Currents"@en ;
         skos:definition  "Ocean Currents refers to relatively constant directional flows of large water masses, which can be driven by a variety of dynamic forces." ;
         skos:inScheme    <https://w3id.org/national-ocean-council/api/vocab/dcmp> .
 
@@ -545,14 +545,14 @@ dcmp-term:ocean-dumping
         rdf:type         owl:NamedIndividual ;
         rdf:type         skos:Concept ;
         dct:identifier   "ocean-dumping"^^xsd:string ;
-        skos:prefLabel   "Ocean Dumping"^^xsd:string ;
+        skos:prefLabel   "Ocean Dumping"@en ;
         skos:definition  "Ocean Dumping includes the deliberate, legal dumping of dredged spoils and other materials into ocean waters; it excludes activities that can be classified in the “Sewage Discharge” or “Mining and Mineral Extraction” categories." ;
         skos:inScheme    <https://w3id.org/national-ocean-council/api/vocab/dcmp> .
 
 dcmp-term:ocean-uses  rdf:type  owl:NamedIndividual ;
         rdf:type         skos:Concept ;
         dct:identifier   "ocean-uses"^^xsd:string ;
-        skos:prefLabel   "Ocean Uses"^^xsd:string ;
+        skos:prefLabel   "Ocean Uses"@en ;
         skos:definition  "Ocean Uses is a top-level category of data about human activities that occur in, on, under, or immediately above the water in the Nation’s coastal and marine environments. These “Ocean Use” categories are included in this document as a proposed unifying framework for collecting, organizing, managing, and applying data on human uses of the oceans for CMSP and other place-based management efforts." ;
         skos:inScheme    <https://w3id.org/national-ocean-council/api/vocab/dcmp> ;
         skos:narrower    dcmp-term:transportation ;
@@ -565,7 +565,7 @@ dcmp-term:ocean-current-energy-production
         rdf:type         owl:NamedIndividual ;
         rdf:type         skos:Concept ;
         dct:identifier   "ocean-current-energy-production"^^xsd:string ;
-        skos:prefLabel   "Ocean Current Energy Production"^^xsd:string ;
+        skos:prefLabel   "Ocean Current Energy Production"@en ;
         skos:definition  "Ocean Current Energy Production” includes the generation of electricity from ocean currents by using turbines, associated transmission hubs, generators, and cables; it excludes activities and infrastructure associated with other forms of energy generation." ;
         skos:inScheme    <https://w3id.org/national-ocean-council/api/vocab/dcmp> .
 
@@ -573,7 +573,7 @@ dcmp-term:ocean-thermal-resources
         rdf:type         owl:NamedIndividual ;
         rdf:type         skos:Concept ;
         dct:identifier   "ocean-thermal-resources"^^xsd:string ;
-        skos:prefLabel   "Ocean Thermal Resources"^^xsd:string ;
+        skos:prefLabel   "Ocean Thermal Resources"@en ;
         skos:definition  "Ocean Thermal Resources includes the temperature differences between surface and deep waters in the ocean that can be used for electricity generation through ocean thermal energy conversion (OTEC)." ;
         skos:inScheme    <https://w3id.org/national-ocean-council/api/vocab/dcmp> .
 
@@ -581,7 +581,7 @@ dcmp-term:ocean-thermal-energy-conversion
         rdf:type         owl:NamedIndividual ;
         rdf:type         skos:Concept ;
         dct:identifier   "ocean-thermal-energy-conversion"^^xsd:string ;
-        skos:prefLabel   "Ocean Thermal Energy Conversion"^^xsd:string ;
+        skos:prefLabel   "Ocean Thermal Energy Conversion"@en ;
         skos:definition  "Ocean Thermal Energy Conversion includes the generation of electricity from ocean temperature gradients by using closed-cycle, open-cycle, and hybrid conversion systems, and associated seawater intake systems and pipelines; it excludes activities and infrastructure associated with other forms of energy generation." ;
         skos:inScheme    <https://w3id.org/national-ocean-council/api/vocab/dcmp> .
 
@@ -589,7 +589,7 @@ dcmp-term:offshore-aquaculture
         rdf:type         owl:NamedIndividual ;
         rdf:type         skos:Concept ;
         dct:identifier   "offshore-aquaculture"^^xsd:string ;
-        skos:prefLabel   "Offshore Aquaculture"^^xsd:string ;
+        skos:prefLabel   "Offshore Aquaculture"@en ;
         skos:definition  "Offshore Aquaculture includes cultivating and harvesting marine organisms offshore by using man-made enclosures that can be fixed, floating, or submerged (for example, nets, pens, and cages); it excludes aquaculture wholly pursued on land and activities that can be classified in the “Coastal Aquaculture” category." ;
         skos:inScheme    <https://w3id.org/national-ocean-council/api/vocab/dcmp> .
 
@@ -597,7 +597,7 @@ dcmp-term:offshore-oil-and-gas-production
         rdf:type         owl:NamedIndividual ;
         rdf:type         skos:Concept ;
         dct:identifier   "offshore-oil-and-gas-production"^^xsd:string ;
-        skos:prefLabel   "Offshore Oil and Gas Production"^^xsd:string ;
+        skos:prefLabel   "Offshore Oil and Gas Production"@en ;
         skos:definition  "Offshore Oil and Gas Production includes production and transportation of oil and gas as well as associated offshore infrastructure and pipelines; it excludes “Shipping” as well as activities and infrastructure associated with other forms of energy generation." ;
         skos:inScheme    <https://w3id.org/national-ocean-council/api/vocab/dcmp> .
 
@@ -605,7 +605,7 @@ dcmp-term:offshore-seaweed-harvest
         rdf:type         owl:NamedIndividual ;
         rdf:type         skos:Concept ;
         dct:identifier   "offshore-seaweek-harvest"^^xsd:string ;
-        skos:prefLabel   "Offshore Seaweed Harvest"^^xsd:string ;
+        skos:prefLabel   "Offshore Seaweed Harvest"@en ;
         skos:definition  "Offshore Seaweed Harvest includes large-scale commercial harvesting by machine, or limited-scale individual harvesting by hand from a small boat, of any species of benthic macroalgae; it excludes activities that can be classified in other “Ocean Use” categories, such as “Offshore Aquaculture,” “Coastal Aquaculture,” and “Tide Pooling.”" ;
         skos:inScheme    <https://w3id.org/national-ocean-council/api/vocab/dcmp> .
 
@@ -613,7 +613,7 @@ dcmp-term:oil-resources
         rdf:type         owl:NamedIndividual ;
         rdf:type         skos:Concept ;
         dct:identifier   "oil-resources"^^xsd:string ;
-        skos:prefLabel   "Oil Resources"^^xsd:string ;
+        skos:prefLabel   "Oil Resources"@en ;
         skos:definition  "Oil Resources refers to deposits of valuable liquid hydrocarbons or fossil fuels." ;
         skos:inScheme    <https://w3id.org/national-ocean-council/api/vocab/dcmp> .
 
@@ -621,7 +621,7 @@ dcmp-term:other-commercial-industrial-uses
         rdf:type         owl:NamedIndividual ;
         rdf:type         skos:Concept ;
         dct:identifier   "other-commercial-industrial-uses"^^xsd:string ;
-        skos:prefLabel   "Other Commercial/Industrial Uses"^^xsd:string ;
+        skos:prefLabel   "Other Commercial/Industrial Uses"@en ;
         skos:definition  "The oceans of the United States are increasingly considered valuable areas for industrial and commercial operations ranging from mining to aquaculture. These uses typically involve heavy equipment and permanently installed infrastructure, commonly over an extensive spatial footprint." ;
         skos:inScheme    <https://w3id.org/national-ocean-council/api/vocab/dcmp> ;
         skos:narrower    dcmp-term:coastal-aquaculture ;
@@ -636,7 +636,7 @@ dcmp-term:pelagic-fishing
         rdf:type         owl:NamedIndividual ;
         rdf:type         skos:Concept ;
         dct:identifier   "pelagic-fishing"^^xsd:string ;
-        skos:prefLabel   "Pelagic Fishing"^^xsd:string ;
+        skos:prefLabel   "Pelagic Fishing"@en ;
         skos:definition  "Pelagic Fishing includes the use of midwater trawling, purse seine, pelagic long-lines, hand-lines, harpoons, midwater gillnets, rod and reel, trolling, and buoys to catch pelagic fishes and mobile invertebrates; it excludes activities that can be classified in other “Ocean Use” categories." ;
         skos:inScheme    <https://w3id.org/national-ocean-council/api/vocab/dcmp> .
 
@@ -644,7 +644,7 @@ dcmp-term:physical-habitats-and-geomorphology
         rdf:type         owl:NamedIndividual ;
         rdf:type         skos:Concept ;
         dct:identifier   "physical-habitats-and-geomorphology"^^xsd:string ;
-        skos:prefLabel   "Physical Habitats and Geomorphology"^^xsd:string ;
+        skos:prefLabel   "Physical Habitats and Geomorphology"@en ;
         skos:definition  "Physical Habitats and Geomorphology includes measures of the geologic and structural characteristics of the coast or sea floor, such as the features defined in the Geoform Component of CMECS." ;
         skos:inScheme    <https://w3id.org/national-ocean-council/api/vocab/dcmp> .
 
@@ -652,7 +652,7 @@ dcmp-term:physical-chemical-features
         rdf:type         owl:NamedIndividual ;
         rdf:type         skos:Concept ;
         dct:identifier   "physical-chemical-features"^^xsd:string ;
-        skos:prefLabel   "Physical/Chemical Features"^^xsd:string ;
+        skos:prefLabel   "Physical/Chemical Features"@en ;
         skos:definition  "Physical/Chemical Features are geological, chemical, or hydrodynamic features that are ecologically important or influence patterns of human uses of the ocean. Examples include seamounts, persistent upwelling zones, areas of low dissolved oxygen, and areas of reduced pH." ;
         skos:inScheme    <https://w3id.org/national-ocean-council/api/vocab/dcmp> ;
         skos:narrower    dcmp-term:substrate ;
@@ -665,7 +665,7 @@ dcmp-term:recreational-nonextractive-cultural-use
         rdf:type         owl:NamedIndividual ;
         rdf:type         skos:Concept ;
         dct:identifier   "recreational-nonextractive-cultural-use"^^xsd:string ;
-        skos:prefLabel   "Recreational Nonextractive/Cultural Use"^^xsd:string ;
+        skos:prefLabel   "Recreational Nonextractive/Cultural Use"@en ;
         skos:definition  "These are activities pursued by individuals or groups for the purposes of recreation, exercise, sport, cultural traditions, or spiritual renewal. Many involve people in, on, or under the water, often with a small vessel or dive gear. With the exception of “Cultural Use,” which may include traditional harvest of certain resources by tribes or native peoples, all involve nonextractive activities." ;
         skos:inScheme    <https://w3id.org/national-ocean-council/api/vocab/dcmp> ;
         skos:narrower    dcmp-term:paddling ;
@@ -683,7 +683,7 @@ dcmp-term:regulatory-use-restrictions
         rdf:type         owl:NamedIndividual ;
         rdf:type         skos:Concept ;
         dct:identifier   "regulatory-use-restrictions"^^xsd:string ;
-        skos:prefLabel   "Regulatory Use Restrictions"^^xsd:string ;
+        skos:prefLabel   "Regulatory Use Restrictions"@en ;
         skos:definition  "Regulatory Use Restrictions data delineate specific locations for which some uses are restricted in order to meet regulatory goals (for example, regions in which Total Maximum Daily Loads have been defined for particular pollutants)." ;
         skos:inScheme    <https://w3id.org/national-ocean-council/api/vocab/dcmp> .
 
@@ -691,7 +691,7 @@ dcmp-term:sand-resources
         rdf:type         owl:NamedIndividual ;
         rdf:type         skos:Concept ;
         dct:identifier   "sand-resources"^^xsd:string ;
-        skos:prefLabel   "Sand Resources"^^xsd:string ;
+        skos:prefLabel   "Sand Resources"@en ;
         skos:definition  "Sand Resources includes deposits of unconsolidated particles of biogenic or mineral sediments with a dominant particle size ranging from 0.0625–2.0 millimeters in diameter; the deposits may be located offshore as sand beds or onshore as dunes and beaches." ;
         skos:inScheme    <https://w3id.org/national-ocean-council/api/vocab/dcmp> .
 
@@ -699,7 +699,7 @@ dcmp-term:scuba-snorkeling
         rdf:type         owl:NamedIndividual ;
         rdf:type         skos:Concept ;
         dct:identifier   "scuba-snorkeling"^^xsd:string ;
-        skos:prefLabel   "Scuba/Snorkeling"^^xsd:string ;
+        skos:prefLabel   "Scuba/Snorkeling"@en ;
         skos:definition  "Scuba/Snorkeling includes scuba diving, surface supply diving, snorkeling (that is, free diving); it excludes activities that can be classified in the “Swimming” or “Dive Fishing” categories." ;
         skos:inScheme    <https://w3id.org/national-ocean-council/api/vocab/dcmp> .
 
@@ -707,7 +707,7 @@ dcmp-term:seawater-intake
         rdf:type         owl:NamedIndividual ;
         rdf:type         skos:Concept ;
         dct:identifier   "seawater-intake"^^xsd:string ;
-        skos:prefLabel   "Seawater Intake"^^xsd:string ;
+        skos:prefLabel   "Seawater Intake"@en ;
         skos:definition  "Seawater Intake” includes intake of seawater for desalination, power plant cooling, or other industrial uses as well as associated beach wells, offshore or submerged intake systems, and pipelines; it excludes intake related to sewage discharge, renewable energy production, or fishing." ;
         skos:inScheme    <https://w3id.org/national-ocean-council/api/vocab/dcmp> .
 
@@ -715,14 +715,14 @@ dcmp-term:sewage-discharge
         rdf:type         owl:NamedIndividual ;
         rdf:type         skos:Concept ;
         dct:identifier   "sewage-discharge"^^xsd:string ;
-        skos:prefLabel   "Sewage Discharge"^^xsd:string ;
+        skos:prefLabel   "Sewage Discharge"@en ;
         skos:definition  "Sewage Discharge” includes discharging of sewage and wastewater effluent from outfall areas as well as associated pipelines; it excludes activities that can be classified in the “Ocean Dumping” category." ;
         skos:inScheme    <https://w3id.org/national-ocean-council/api/vocab/dcmp> .
 
 dcmp-term:shore-use  rdf:type  owl:NamedIndividual ;
         rdf:type         skos:Concept ;
         dct:identifier   "shore-use"^^xsd:string ;
-        skos:prefLabel   "Shore Use"^^xsd:string ;
+        skos:prefLabel   "Shore Use"@en ;
         skos:definition  "Shore Use includes walking, running, digging, resting, collecting of shells, wildlife viewing, driving on the beach, camping, kite flying, bonfires, picnicking, dog walking, horseback riding, skim boarding, and related recreational activities; it excludes activities that can be classified in the “Tide Pooling,” “Mining and Mineral Extraction,” “Surface Board Sports,” “Swimming,” “Harvesting from Shore,” or “Coastal Aquaculture” categories." ;
         skos:inScheme    <https://w3id.org/national-ocean-council/api/vocab/dcmp> .
 
@@ -730,7 +730,7 @@ dcmp-term:solar-radiation
         rdf:type         owl:NamedIndividual ;
         rdf:type         skos:Concept ;
         dct:identifier   "solar-radiation"^^xsd:string ;
-        skos:prefLabel   "Solar Radiation"^^xsd:string ;
+        skos:prefLabel   "Solar Radiation"@en ;
         skos:definition  "Solar Radiation refers to energy emitted by the Sun in the form of electromagnetic waves and particles." ;
         skos:inScheme    <https://w3id.org/national-ocean-council/api/vocab/dcmp> .
 
@@ -738,7 +738,7 @@ dcmp-term:surface-board-sports
         rdf:type         owl:NamedIndividual ;
         rdf:type         skos:Concept ;
         dct:identifier   "surface-board-sports"^^xsd:string ;
-        skos:prefLabel   "Surface Board Sports"^^xsd:string ;
+        skos:prefLabel   "Surface Board Sports"@en ;
         skos:definition  "Surface Board Sports includes tow-in and paddle-in surfing, windsurfing, kite surfing, and sailboarding; it excludes activities that can be classified in the “Paddling,” “Scuba/Snorkeling,” and “Swimming” categories." ;
         skos:inScheme    <https://w3id.org/national-ocean-council/api/vocab/dcmp> .
 
@@ -746,7 +746,7 @@ dcmp-term:tidal-current-energy-production
         rdf:type         owl:NamedIndividual ;
         rdf:type         skos:Concept ;
         dct:identifier   "tidal-current-energy-production"^^xsd:string ;
-        skos:prefLabel   "Tidal Current Energy Production"^^xsd:string ;
+        skos:prefLabel   "Tidal Current Energy Production"@en ;
         skos:definition  "Tidal Current Energy Production includes the generation of electricity from tidal currents by using dams and turbines, associated transmission hubs, generators, and cables; it excludes activities and infrastructure associated with other forms of energy generation." ;
         skos:inScheme    <https://w3id.org/national-ocean-council/api/vocab/dcmp> .
 
@@ -754,7 +754,7 @@ dcmp-term:tide-pooling
         rdf:type         owl:NamedIndividual ;
         rdf:type         skos:Concept ;
         dct:identifier   "tide-pooling"^^xsd:string ;
-        skos:prefLabel   "Tide Pooling"^^xsd:string ;
+        skos:prefLabel   "Tide Pooling"@en ;
         skos:definition  "Tide Pooling includes the nonconsumptive use of the intertidal zone between high and low tides for recreational, scientific, or educational purposes; it excludes activities that can be classified in the “Harvesting from Shore” or “Shore Use” categories." ;
         skos:inScheme    <https://w3id.org/national-ocean-council/api/vocab/dcmp> .
 
@@ -762,7 +762,7 @@ dcmp-term:tribally-governed-areas
         rdf:type         owl:NamedIndividual ;
         rdf:type         skos:Concept ;
         dct:identifier   "tribally-governed-areas"^^xsd:string ;
-        skos:prefLabel   "Tribally Governed Areas"^^xsd:string ;
+        skos:prefLabel   "Tribally Governed Areas"@en ;
         skos:definition  "Tribally Governed Areas data delineate specific regions under the sovereignty of American Indian tribes who determine policy, actions, and other affairs." ;
         skos:inScheme    <https://w3id.org/national-ocean-council/api/vocab/dcmp> .
 
@@ -770,7 +770,7 @@ dcmp-term:underwater-transmission-cables
         rdf:type         owl:NamedIndividual ;
         rdf:type         skos:Concept ;
         dct:identifier   "underwater-transmission-cables"^^xsd:string ;
-        skos:prefLabel   "Underwater Transmission Cables"^^xsd:string ;
+        skos:prefLabel   "Underwater Transmission Cables"@en ;
         skos:definition  "Underwater Transmission Cables includes cables installed on the sea floor to transmit data, communications, and electricity generated on land; it excludes lost fishing gear and other types of cables such as those that can be classified in “Energy Production” use categories." ;
         skos:inScheme    <https://w3id.org/national-ocean-council/api/vocab/dcmp> .
 
@@ -778,7 +778,7 @@ dcmp-term:water-column-features
         rdf:type         owl:NamedIndividual ;
         rdf:type         skos:Concept ;
         dct:identifier   "water-column-features"^^xsd:string ;
-        skos:prefLabel   "Water Column Features"^^xsd:string ;
+        skos:prefLabel   "Water Column Features"@en ;
         skos:definition  "Water Column Features includes persistent or regularly occurring waves, layers, water masses, upwellings, stratifications, and fronts that are defined by patterns of water velocity, physical properties, and biogeochemical properties; these features are listed and defined in the “Layer,” “Hydroform,” and “Biogeochemical Feature” layers of the Water Column Component of CMECS." ;
         skos:inScheme    <https://w3id.org/national-ocean-council/api/vocab/dcmp> .
 
@@ -786,7 +786,7 @@ dcmp-term:water-quality-parameters
         rdf:type         owl:NamedIndividual ;
         rdf:type         skos:Concept ;
         dct:identifier   "water-quality-parameters"^^xsd:string ;
-        skos:prefLabel   "Water-quality Parameters"^^xsd:string ;
+        skos:prefLabel   "Water-quality Parameters"@en ;
         skos:definition  "Water-quality Parameters includes measures of the ranges and distributions of the chemical, physical, and biological constituents of waters, including temperature, salinity, pH, dissolved oxygen, turbidity, total suspended solids, chlorophyll, nutrients, bacteria, and toxicants." ;
         skos:inScheme    <https://w3id.org/national-ocean-council/api/vocab/dcmp> .
 
@@ -794,7 +794,7 @@ dcmp-term:wave-energy-production
         rdf:type         owl:NamedIndividual ;
         rdf:type         skos:Concept ;
         dct:identifier   "wave-energy-production"^^xsd:string ;
-        skos:prefLabel   "Wave Energy Production"^^xsd:string ;
+        skos:prefLabel   "Wave Energy Production"@en ;
         skos:definition  "Wave Energy Production includes the generation of electricity from wave power by using fixed or floating wave energy capture devices; it excludes activities and infrastructure associated with other forms of energy generation." ;
         skos:inScheme    <https://w3id.org/national-ocean-council/api/vocab/dcmp> .
 
@@ -802,7 +802,7 @@ dcmp-term:wildlife-viewing-at-sea
         rdf:type         owl:NamedIndividual ;
         rdf:type         skos:Concept ;
         dct:identifier   "wildlife-viewing-at-sea"^^xsd:string ;
-        skos:prefLabel   "Wildlife Viewing at Sea"^^xsd:string ;
+        skos:prefLabel   "Wildlife Viewing at Sea"@en ;
         skos:definition  "Wildlife Viewing at Sea includes boat-based wildlife viewing at sea, usually on a commercial vessel; it excludes incidental wildlife viewing from shore or sea while pursuing other activities such as those that are classified in the “Motorized Boating,” “Paddling,” or “Sailing” categories." ;
         skos:inScheme    <https://w3id.org/national-ocean-council/api/vocab/dcmp> .
 
@@ -810,6 +810,6 @@ dcmp-term:wind-energy-production
         rdf:type         owl:NamedIndividual ;
         rdf:type         skos:Concept ;
         dct:identifier   "wind-energy-production"^^xsd:string ;
-        skos:prefLabel   "Wind Energy Production"^^xsd:string ;
+        skos:prefLabel   "Wind Energy Production"@en ;
         skos:definition  "Wind Energy Production includes the generation of electricity from wind power by using turbines and associated offshore infrastructure, including substructures, transmission hubs, cables and service platforms; it excludes onshore power grids as well as activities and infrastructure associated with other forms of energy generation." ;
         skos:inScheme    <https://w3id.org/national-ocean-council/api/vocab/dcmp> .
