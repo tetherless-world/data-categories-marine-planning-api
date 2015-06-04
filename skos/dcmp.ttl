@@ -28,7 +28,7 @@ skos:Concept  rdf:type  owl:Class .
         rdf:type  owl:NamedIndividual ;
         rdf:type  skos:ConceptScheme ;
         dct:identifier "dcmp"^^xsd:string ;
-        skos:prefLabel "Data Categories for Marine Planning"^^xsd:string .
+        skos:prefLabel "Data Categories for Marine Planning"@en .
 
 dcmp-term:assessments
         rdf:type         owl:NamedIndividual ;
