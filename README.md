@@ -25,6 +25,7 @@ Linked Data API Specification for publishing Data Categories for Marine Planning
 | *get list of all terms that are an exact match to the specified term* | ``GET /vocab/{vocab_id}/term/{term_id}/exactMatch`` |
 | *get list of all terms in vocabulary with a label that is an exact match with the specified text* | ``GET /vocab/{vocab_id}/terms?anyLabel={text}`` |
 | *get list of all terms in vocabulary with a label that contains the specified text* | ``GET /vocab/{vocab_id}/terms?anyLabelContains={text}`` |
+| *get list of all terms in vocabulary with a label or definition that contains the specified text* | ``GET /vocab/{vocab_id}/terms?search={text}`` |
 
 ### Vocabulary Mapping
 
