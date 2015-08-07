@@ -35,7 +35,8 @@ dcmp-term:assessments
         rdf:type         skos:Concept ;
         dct:identifier   "assessments"^^xsd:string ;
         skos:prefLabel   "Assessments"@en ;
-        skos:definition  "Assessments are derived data that provide information about the values, impacts, drivers, connections, or functions of a feature in its present distribution." .
+        skos:definition  "Assessments are derived data that provide information about the values, impacts, drivers, connections, or functions of a feature in its present distribution." ;
+        skos:inScheme    <https://w3id.org/national-ocean-council/api/vocab/dcmp> .
 
 dcmp-term:biodiversity
         rdf:type         owl:NamedIndividual ;
@@ -57,7 +58,8 @@ dcmp-term:distributions
         rdf:type         skos:Concept ;
         dct:identifier   "distributions"^^xsd:string ;
         skos:prefLabel   "Distributions"@en ;
-        skos:definition  "Distributions describe locations or patterns of a feature of interest across space and (or) time. These data can include point data, lines, polygons, and temporal data at any scale relevant to CMSP and can be produced by observation, interpolation, or modeling. Distributions can also include maps or statistics of climatology, the environmental values that are expected to be observed at the present time." .
+        skos:definition  "Distributions describe locations or patterns of a feature of interest across space and (or) time. These data can include point data, lines, polygons, and temporal data at any scale relevant to CMSP and can be produced by observation, interpolation, or modeling. Distributions can also include maps or statistics of climatology, the environmental values that are expected to be observed at the present time." ;
+        skos:inScheme    <https://w3id.org/national-ocean-council/api/vocab/dcmp> .
 
 dcmp-term:fishes  rdf:type  owl:NamedIndividual ;
         rdf:type         skos:Concept ;
@@ -146,7 +148,8 @@ dcmp-term:predictions
         rdf:type         skos:Concept ;
         dct:identifier   "predictions"^^xsd:string ;
         skos:prefLabel   "Predictions"@en ;
-        skos:definition  "Predictions are data expressing projections or models of future distributions, values, or impacts, including forecasts of anticipated changes brought about by natural and human processes, as well as scenario-testing models that compare outcomes of different management actions." .
+        skos:definition  "Predictions are data expressing projections or models of future distributions, values, or impacts, including forecasts of anticipated changes brought about by natural and human processes, as well as scenario-testing models that compare outcomes of different management actions." ;
+        skos:inScheme    <https://w3id.org/national-ocean-council/api/vocab/dcmp> .
 
 dcmp-term:reptiles  rdf:type  owl:NamedIndividual ;
         rdf:type         skos:Concept ;
@@ -304,7 +307,8 @@ dcmp-term:data-content-subjects
         skos:narrower      dcmp-term:infrastructure ;
         skos:narrower      dcmp-term:living-resources ;
         skos:narrower      dcmp-term:nonliving-resources ;
-        skos:narrower      dcmp-term:ocean-uses .
+        skos:narrower      dcmp-term:ocean-uses ;
+        skos:inScheme    <https://w3id.org/national-ocean-council/api/vocab/dcmp> .
 
 dcmp-term:data-content-types
         rdf:type           owl:NamedIndividual ;
@@ -314,7 +318,8 @@ dcmp-term:data-content-types
         skos:topConceptOf  <https://w3id.org/national-ocean-council/api/vocab/dcmp> ;
         skos:narrower      dcmp-term:assessments ;
         skos:narrower      dcmp-term:distributions ;
-        skos:narrower      dcmp-term:predictions .
+        skos:narrower      dcmp-term:predictions ;
+        skos:inScheme    <https://w3id.org/national-ocean-council/api/vocab/dcmp> .
 
 dcmp-term:de-facto-mpas
         rdf:type         owl:NamedIndividual ;
