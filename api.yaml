@@ -1,6 +1,6 @@
 swagger: '2.0'
 info:
-  title: "DDCMP Vocabulary API"
+  title: "DCMP Vocabulary API"
   description: "Data Categories for Marine Planning Vocabulary API"
   contact:
     name: "API Support"
