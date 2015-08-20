@@ -6,6 +6,8 @@ Linked Data API Specification for publishing Data Categories for Marine Planning
 
 ## The API
 
+Swagger documentation for the API is available [here](http://petstore.swagger.io/?url=https://raw.githubusercontent.com/tetherless-world/data-categories-marine-planning-api/master/api.yaml)
+
 | Description  | Endpoint Template |
 | ------------- | ------------- |
 | *get list of all terms from all vocabularies published by service* | ``GET /terms`` |
