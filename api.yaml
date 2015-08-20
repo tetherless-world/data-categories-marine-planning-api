@@ -1,0 +1,528 @@
+swagger: '2.0'
+info:
+  title: "DDCMP Vocabulary API"
+  description: "Data Categories for Marine Planning Vocabulary API"
+  contact:
+    name: "API Support"
+    email: "zednis2@rpi.edu"
+  version: "1.0.0"
+host: "w3id.org"
+schemes:
+  - "https"
+basePath: "/national-ocean-council/api"
+produces:
+  - "text/turtle"
+  - "application/json"
+tags:
+- name: "Term"
+- name: "Term Relation"
+- name: "Term Mapping"
+paths:
+  /terms:
+    get:
+      summary: "All Terms"
+      description: "Get list of all terms from all vocabularies published by service"
+      parameters:
+      - name: "anyLabel"
+        in: "query"
+        description: "filter by labels that exactly match the specified text"
+        required: false
+        type: "string"
+      - name: "anyLabelContains"
+        in: "query"
+        description: "filter by labels that contain the specified text"
+        required: false
+        type: "string"
+      - name: "search"
+        in: "query"
+        description: "filter by labels or definitions that contains the specified text"
+        required: false
+        type: "string"
+      tags:
+       - "Term"
+      responses:
+        200:
+          description: "An array of vocabulary terms"
+  /vocabs:
+    get:
+      summary: "Vocabularies"
+      description: "Returns a list of all vocabularies published by this service"
+      parameters:
+      - name: "anyLabel"
+        in: "query"
+        description: "filter by labels that exactly match the specified text"
+        required: false
+        type: "string"
+      - name: "anyLabelContains"
+        in: "query"
+        description: "filter by labels that contain the specified text"
+        required: false
+        type: "string"
+      - name: "search"
+        in: "query"
+        description: "filter by labels or definitions that contains the specified text"
+        required: false
+        type: "string"
+      tags:
+      - "Vocabulary"
+      responses:
+        200:
+          description: "An array of vocabulary descriptions"
+  /vocab/{vocab_id}:
+    get:
+      summary: "Vocabulary"
+      description: "Returns the record for a single vocabulary"
+      parameters:
+      - name: "vocab_id"
+        in: "path"
+        description: "vocabulary id"
+        required: true
+        type: "string"
+      tags:
+      - "Vocabulary"
+      responses:
+        200:
+          description: "A vocabulary"
+  /vocab/{vocab_id}/term/{term_id}:
+    get:
+      summary: "Vocabulary Term"
+      description: "Returns the record for a single vocabulary term"
+      parameters:
+      - name: "vocab_id"
+        in: "path"
+        description: "vocabulary id"
+        required: true
+        type: "string"
+      - name: "term_id"
+        in: "path"
+        description: "term id"
+        required: true
+        type: "string"
+      tags:
+      - "Term"
+      responses:
+        200:
+          description: "A vocabulary term"
+  /vocab/{vocab_id}/terms:
+    get:
+      summary: "Vocabulary Terms"
+      description: "Get list of all terms in the specified vocabulary"
+      parameters:
+      - name: "vocab_id"
+        in: "path"
+        description: "vocabulary id"
+        required: true
+        type: "string"
+      - name: "anyLabel"
+        in: "query"
+        description: "filter by labels that exactly match the specified text"
+        required: false
+        type: "string"
+      - name: "anyLabelContains"
+        in: "query"
+        description: "filter by labels that contain the specified text"
+        required: false
+        type: "string"
+      - name: "search"
+        in: "query"
+        description: "filter by labels or definitions that contains the specified text"
+        required: false
+        type: "string"
+      tags:
+      - "Term"
+      responses:
+        200:
+          description: "An array of vocabulary terms"
+  /vocab/{vocab_id}/topTerms:
+    get:
+      summary: "Top Vocabulary Terms"
+      description: "Get list of all terms narrower than the specified term"
+      parameters:
+      - name: "vocab_id"
+        in: "path"
+        description: "vocabulary id"
+        required: true
+        type: "string"
+      - name: "anyLabel"
+        in: "query"
+        description: "filter by labels that exactly match the specified text"
+        required: false
+        type: "string"
+      - name: "anyLabelContains"
+        in: "query"
+        description: "filter by labels that contain the specified text"
+        required: false
+        type: "string"
+      - name: "search"
+        in: "query"
+        description: "filter by labels or definitions that contains the specified text"
+        required: false
+        type: "string"
+      tags:
+      - "Term"
+      responses:
+        200:
+          description: "An array of vocabulary terms"
+  /vocab/{vocab_id}/term/{term_id}/narrower:
+    get:
+      summary: "Narrower Terms"
+      description: "Get list of all terms narrower than the specified term"
+      externalDocs:
+        description: "skos:narrower"
+        url: "http://www.w3.org/TR/skos-reference/#narrower"
+      parameters:
+      - name: "vocab_id"
+        in: "path"
+        description: "vocabulary id"
+        required: true
+        type: "string"
+      - name: "term_id"
+        in: "path"
+        description: "term id"
+        required: true
+        type: "string"
+      - name: "anyLabel"
+        in: "query"
+        description: "filter by labels that exactly match the specified text"
+        required: false
+        type: "string"
+      - name: "anyLabelContains"
+        in: "query"
+        description: "filter by labels that contain the specified text"
+        required: false
+        type: "string"
+      - name: "search"
+        in: "query"
+        description: "filter by labels or definitions that contains the specified text"
+        required: false
+        type: "string"
+      tags:
+      - "Term"
+      - "Term Relation"
+      responses:
+        200:
+          description: "An array of vocabulary terms"
+  /vocab/{vocab_id}/term/{term_id}/broader:
+    get:
+      summary: "Broader Terms"
+      description: "Get list of all terms broader than the specified term"
+      parameters:
+      - name: "vocab_id"
+        in: "path"
+        description: "vocabulary id"
+        required: true
+        type: "string"
+      - name: "term_id"
+        in: "path"
+        description: "term id"
+        required: true
+        type: "string"
+      - name: "anyLabel"
+        in: "query"
+        description: "filter by labels that exactly match the specified text"
+        required: false
+        type: "string"
+      - name: "anyLabelContains"
+        in: "query"
+        description: "filter by labels that contain the specified text"
+        required: false
+        type: "string"
+      - name: "search"
+        in: "query"
+        description: "filter by labels or definitions that contains the specified text"
+        required: false
+        type: "string"
+      tags:
+      - "Term"
+      - "Term Relation"
+      responses:
+        200:
+          description: "An array of vocabulary terms"
+  /vocab/{vocab_id}/term/{term_id}/related:
+    get:
+      summary: "Related Terms"
+      description: "Get list of all terms related to the specified term"
+      parameters:
+      - name: "vocab_id"
+        in: "path"
+        description: "vocabulary id"
+        required: true
+        type: "string"
+      - name: "term_id"
+        in: "path"
+        description: "term id"
+        required: true
+        type: "string"
+      - name: "anyLabel"
+        in: "query"
+        description: "filter by labels that exactly match the specified text"
+        required: false
+        type: "string"
+      - name: "anyLabelContains"
+        in: "query"
+        description: "filter by labels that contain the specified text"
+        required: false
+        type: "string"
+      - name: "search"
+        in: "query"
+        description: "filter by labels or definitions that contains the specified text"
+        required: false
+        type: "string"
+      tags:
+      - "Term"
+      - "Term Relation"
+      responses:
+        200:
+          description: "An array of vocabulary terms"
+  /vocab/{vocab_id}/term/{term_id}/narrowerTransitive:
+    get:
+      summary: "Narrower Transitive Terms"
+      description: "Get list of all terms transitively narrower than the specified term"
+      parameters:
+      - name: "vocab_id"
+        in: "path"
+        description: "vocabulary id"
+        required: true
+        type: "string"
+      - name: "term_id"
+        in: "path"
+        description: "term id"
+        required: true
+        type: "string"
+      - name: "anyLabel"
+        in: "query"
+        description: "filter by labels that exactly match the specified text"
+        required: false
+        type: "string"
+      - name: "anyLabelContains"
+        in: "query"
+        description: "filter by labels that contain the specified text"
+        required: false
+        type: "string"
+      - name: "search"
+        in: "query"
+        description: "filter by labels or definitions that contains the specified text"
+        required: false
+        type: "string"
+      tags:
+      - "Term"
+      - "Term Relation"
+      responses:
+        200:
+          description: "An array of vocabulary terms"
+  /vocab/{vocab_id}/term/{term_id}/broaderTransitive:
+    get:
+      summary: "Broader Transitive Terms"
+      description: "Get list of all terms trasitively broader than the specified term"
+      parameters:
+      - name: "vocab_id"
+        in: "path"
+        description: "vocabulary id"
+        required: true
+        type: "string"
+      - name: "term_id"
+        in: "path"
+        description: "term id"
+        required: true
+        type: "string"
+      - name: "anyLabel"
+        in: "query"
+        description: "filter by labels that exactly match the specified text"
+        required: false
+        type: "string"
+      - name: "anyLabelContains"
+        in: "query"
+        description: "filter by labels that contain the specified text"
+        required: false
+        type: "string"
+      - name: "search"
+        in: "query"
+        description: "filter by labels or definitions that contains the specified text"
+        required: false
+        type: "string"
+      tags:
+      - "Term"
+      - "Term Relation"
+      responses:
+        200:
+          description: "An array of vocabulary terms"
+  /vocab/{vocab_id}/term/{term_id}/narrowMatch:
+    get:
+      summary: "Narrow Match Terms"
+      description: "Get list of all terms from a different vocabulary that are a narrow match to the specified term"
+      parameters:
+      - name: "vocab_id"
+        in: "path"
+        description: "vocabulary id"
+        required: true
+        type: "string"
+      - name: "term_id"
+        in: "path"
+        description: "term id"
+        required: true
+        type: "string"
+      - name: "anyLabel"
+        in: "query"
+        description: "filter by labels that exactly match the specified text"
+        required: false
+        type: "string"
+      - name: "anyLabelContains"
+        in: "query"
+        description: "filter by labels that contain the specified text"
+        required: false
+        type: "string"
+      - name: "search"
+        in: "query"
+        description: "filter by labels or definitions that contains the specified text"
+        required: false
+        type: "string"
+      tags:
+      - "Term"
+      - "Term Mapping"
+      responses:
+        200:
+          description: "An array of vocabulary terms"
+  /vocab/{vocab_id}/term/{term_id}/broadMatch:
+    get:
+      summary: "Broad Terms"
+      description: "Get list of all terms from a different vocabulary that are a broad match to the specified term"
+      parameters:
+      - name: "vocab_id"
+        in: "path"
+        description: "vocabulary id"
+        required: true
+        type: "string"
+      - name: "term_id"
+        in: "path"
+        description: "term id"
+        required: true
+        type: "string"
+      - name: "anyLabel"
+        in: "query"
+        description: "filter by labels that exactly match the specified text"
+        required: false
+        type: "string"
+      - name: "anyLabelContains"
+        in: "query"
+        description: "filter by labels that contain the specified text"
+        required: false
+        type: "string"
+      - name: "search"
+        in: "query"
+        description: "filter by labels or definitions that contains the specified text"
+        required: false
+        type: "string"
+      tags:
+      - "Term"
+      - "Term Mapping"
+      responses:
+        200:
+          description: "An array of vocabulary terms"
+  /vocab/{vocab_id}/term/{term_id}/relatedMatch:
+    get:
+      summary: "Related Match Terms"
+      description: "Get list of all terms from a different vocabulary that are a related match to the specified term"
+      parameters:
+      - name: "vocab_id"
+        in: "path"
+        description: "vocabulary id"
+        required: true
+        type: "string"
+      - name: "term_id"
+        in: "path"
+        description: "term id"
+        required: true
+        type: "string"
+      - name: "anyLabel"
+        in: "query"
+        description: "filter by labels that exactly match the specified text"
+        required: false
+        type: "string"
+      - name: "anyLabelContains"
+        in: "query"
+        description: "filter by labels that contain the specified text"
+        required: false
+        type: "string"
+      - name: "search"
+        in: "query"
+        description: "filter by labels or definitions that contains the specified text"
+        required: false
+        type: "string"
+      tags:
+      - "Term"
+      - "Term Mapping"
+      responses:
+        200:
+          description: "An array of vocabulary terms"
+  /vocab/{vocab_id}/term/{term_id}/closeMatch:
+    get:
+      summary: "Close Match Terms"
+      description: "Get list of all terms from a different vocabulary that are a close match to the specified term"
+      parameters:
+      - name: "vocab_id"
+        in: "path"
+        description: "vocabulary id"
+        required: true
+        type: "string"
+      - name: "term_id"
+        in: "path"
+        description: "term id"
+        required: true
+        type: "string"
+      - name: "anyLabel"
+        in: "query"
+        description: "filter by labels that exactly match the specified text"
+        required: false
+        type: "string"
+      - name: "anyLabelContains"
+        in: "query"
+        description: "filter by labels that contain the specified text"
+        required: false
+        type: "string"
+      - name: "search"
+        in: "query"
+        description: "filter by labels or definitions that contains the specified text"
+        required: false
+        type: "string"
+      tags:
+      - "Term"
+      - "Term Mapping"
+      responses:
+        200:
+          description: "An array of vocabulary terms"
+  /vocab/{vocab_id}/term/{term_id}/exactMatch:
+    get:
+      summary: "Exact Match Terms"
+      description: "Get list of all terms from a different vocabulary that are an exact match to the specified term"
+      parameters:
+      - name: "vocab_id"
+        in: "path"
+        description: "vocabulary id"
+        required: true
+        type: "string"
+      - name: "term_id"
+        in: "path"
+        description: "term id"
+        required: true
+        type: "string"
+      - name: "anyLabel"
+        in: "query"
+        description: "filter by labels that exactly match the specified text"
+        required: false
+        type: "string"
+      - name: "anyLabelContains"
+        in: "query"
+        description: "filter by labels that contain the specified text"
+        required: false
+        type: "string"
+      - name: "search"
+        in: "query"
+        description: "filter by labels or definitions that contains the specified text"
+        required: false
+        type: "string"
+      tags:
+      - "Term"
+      - "Term Mapping"
+      responses:
+        200:
+          description: "An array of vocabulary terms"
