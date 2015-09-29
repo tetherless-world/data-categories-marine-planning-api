@@ -1,6 +1,6 @@
 swagger: '2.0'
 info:
-  title: "DDCMP Vocabulary API"
+  title: "DCMP Vocabulary API"
   description: "Data Categories for Marine Planning Vocabulary API"
   contact:
     name: "API Support"
@@ -197,7 +197,6 @@ paths:
         required: false
         type: "string"
       tags:
-      - "Term"
       - "Term Relation"
       responses:
         200:
@@ -233,7 +232,6 @@ paths:
         required: false
         type: "string"
       tags:
-      - "Term"
       - "Term Relation"
       responses:
         200:
@@ -269,7 +267,6 @@ paths:
         required: false
         type: "string"
       tags:
-      - "Term"
       - "Term Relation"
       responses:
         200:
@@ -305,7 +302,6 @@ paths:
         required: false
         type: "string"
       tags:
-      - "Term"
       - "Term Relation"
       responses:
         200:
@@ -341,7 +337,6 @@ paths:
         required: false
         type: "string"
       tags:
-      - "Term"
       - "Term Relation"
       responses:
         200:
@@ -377,7 +372,6 @@ paths:
         required: false
         type: "string"
       tags:
-      - "Term"
       - "Term Mapping"
       responses:
         200:
@@ -413,7 +407,6 @@ paths:
         required: false
         type: "string"
       tags:
-      - "Term"
       - "Term Mapping"
       responses:
         200:
@@ -449,7 +442,6 @@ paths:
         required: false
         type: "string"
       tags:
-      - "Term"
       - "Term Mapping"
       responses:
         200:
@@ -485,7 +477,6 @@ paths:
         required: false
         type: "string"
       tags:
-      - "Term"
       - "Term Mapping"
       responses:
         200:
@@ -521,7 +512,6 @@ paths:
         required: false
         type: "string"
       tags:
-      - "Term"
       - "Term Mapping"
       responses:
         200:
